@@ -7,4 +7,4 @@ cargo test "%~1"
 if %errorlevel% NEQ 0 (
   exit /b %errorlevel%
 )
-endlocal
+endlocal`git-receive-pack`
